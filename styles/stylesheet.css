@@ -1,0 +1,16 @@
+body {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  color: #000000; /* black */
+  text-align: left;
+  background-color: #4A9999;
+  font-family: Arial;
+
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #0000ff; /* blue */
+  text-align: center;
+}
