@@ -1,0 +1,26 @@
+/*** KERNING & LEADING ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+.rectangle {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#kerning {
+  /* Use the letter-spacing property to change the kerning on the text to fill the div below
+
+  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp
+  */
+}
+
+#leading {
+  /* Use the line-height property to change the leading on the text to fill the div below
+
+  http://www.w3schools.com/cssref/pr_dim_line-height.asp
+  */
+}
