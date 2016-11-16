@@ -4,13 +4,22 @@ body {
   font-family: Arial, sans-serif;
   color: #000000; /* black */
   text-align: left;
-  background-color: #4A9999;
+  background-color:#C9B47A;
   font-family: Arial;
+  max-width: 75%;
+  margin:0 auto;
 
 }
-h1 {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #0000ff; /* blue */
-  text-align: center;
+
+h1{
+font-size: 1.7 em;
+font-weight: 200;
+color: #001428;
+text-align: center;
+border: 2px solid black;
+}
+h2{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
 }
