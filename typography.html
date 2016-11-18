@@ -4,6 +4,7 @@
    <meta charset="utf-8">
    <title>Unit 3: Typography</title>
 <link type="text/css" rel='stylesheet' href='styles/stylesheet.css' media='screen'>
+<link type="text/css" rel='stylesheet' href='styles/typographystyles.css' media='screen'>
  </head>
  <body>
      <div>
@@ -44,6 +45,107 @@
      software is 120 percent of the type size. Thus 10-pt type is set with 12 pts of line spacing. Designers play with line spacing in order to create distinctive typographic arrangements. Reducing the standard distance creates a denser typographic color,
      while risking collisions between ascenders and descenders. Expanding the line spacing creates a lighter, more open text block. As leading increases, lines of type become independent graphic elements rather than parts of an overall visual shape and texture.
    </div>
+
+   <h2>Text Alignment Assignment</h2>
+<h3>Left-Align</h3>
+<p class='align'>This paragraph left-aligns the text.</p>
+<div id="left_align" class='rectangle'>
+  <p class='align'>
+    In <em>flush left/ragged right</em> text, the left edge is hard and the right edge is soft. Word sapces do not fluctuate, so there are never big holes inside the lines of text. This format, which was used primarily for setting poetry before the twentieth
+    century, respects the flow of language rather than submitting to the law of the box. Despite its advantages, however, the flush left format is fraught with danger. Above all, the designer must work hard to control the appearance of the <em>rag</em>    that frorms along the right edge. A good rag looks pleasantly uneven, with no lines that are excessively long or short, and with hyphenation kept to a minimum. A rag is considered "bad" when it looks too even (or too uneven), or when it begins to
+    form regular shapes, like wedges, moons, or diving boards.
+  </p>
+</div>
+
+
+<h3>Right-Align</h3>
+<p class='align'>This paragraph right-aligns the text.</p>
+<div id="right_align" class='rectangle'>
+  <p class='align'>
+    <em>Flush right/ragged left</em> is a variant of the more familiar flush left setting. It is common wisdom among typographers that flush right text is hard to read, because it forces the reader's eye to find a new position at the start of each line.
+    This could be true, or it could be an urban legend. That being said, the flush right setting is rarely employed for long bodies of text. Used in smaller blocks, however, flush right text forms effective marginal notes, sidebards, pull quotes, or other
+    passages that comment on a main body or image. A flush or ragged-edge can suggest attraction (or repulsion) between chunks of information.
+  </p>
+</div>
+
+<h3>Justify</h3>
+<p class='align'>This paragraph justifies the text.</p>
+<div id="justify" class='rectangle'>
+  <p class='align'>
+    <em>Justified text</em>, which has even edges on both the left and right sides of the column, has been the norm since hte invention of printing with movable type, which enabled the creation of page after page of straight-edged columns. In metal type
+    setting, the printer justifies each line by hand, using small metal spacers to alter the spaces between words and letters and thus make all the lines the same length. Digital typesetting performs the same labor automatically. Justified type makes
+    efficient use of space. It also creates a clean, compact shape on the page. Ugly gaps can occur, however, when the line length is too short in relation to the size of type used.
+  </p>
+</div>
+
+<h3>Center-align</h3>
+<p class='align'>This paragraph centers the text.</p>
+<div id="center" class='rectangle'>
+  <p class='align'>
+    <em>Centered text</em> is symmetrical, <br> like the facade of a classical building. <br> Centered type often appears on <br>invitations, title pages, certificates, and tomb stones. <br> The edges of a centered column <br>are often dramatically uneven. <br> Centered lines should be broken to emphasize a key phrase <br> (such as the name of the bride or the date of her wedding) <br> or to allow a new thought to begin on its own line. <br> Breaking lines in this manner is called <br><em>breaking for sense.</em>
+  </p>
+</div>
+
+<h2>Information Hierachy Assignment</h2>
+
+<h3>Hierarchy: Ordered Information</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Logical Grouping</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Changing Weights</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically. Next, bold the title of the lecture, and reorganize your content according to the article's layout. -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Changing Type Size</h3>
+<section>
+  <!-- Complete all steps above, then make the size of the lecture title to 1.6em -->
+  <p>
+    <span id='biggerText'>The Typography of Paul Rand</span> with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use
+    of typography throughout his brands, book covers, and advertising work.
+  </p>
+</section>
+
+
+<h3>Hierarchy: Varying Alignment & Spacing</h3>
+<section>
+  <!-- CHALLENGE: Can you organize the text below in the same way as the fifth layout in the Typekit article? Give it a try! Organize each piece of content into its own div, and give classes to the divs you want to behave similarly. Style those divs with CSS. -->
+  <div id=''>
+    The Typography of Paul Rand with Lewis Blackwell
+  </div>
+
+  <div class='indent'>
+    Shattuck Hall - 7:00 pm March 30, 2011
+  </div>
+
+  <div class='indent'>
+    Design Lecture Series Portland State University Art Department
+  </div>
+
+  <div class='indent'>
+    With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands, book covers, and advertising work.
+  </div>
+
+</section>
+
 
    </main>
  </body>
