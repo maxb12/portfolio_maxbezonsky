@@ -1,3 +1,6 @@
+/* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 /* Do not change this style */
@@ -83,4 +86,35 @@ section p {
 /* Change this style */
 .indent {
 
+}
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+  font-weight: 300;
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+  font-weight: 500;
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+  font-weight: 700;
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
+  font-weight: 900; 
 }
