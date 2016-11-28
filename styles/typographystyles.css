@@ -116,5 +116,24 @@ section p {
 
 #weight5 {
   /* Change the font-weight property to give it a ultra-bold-weight */
-  font-weight: 900; 
+  font-weight: 900;
+}
+
+/*
+  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+  * Use two different typefaces (a serif and a sans-serif)
+  * Use at least three different font-sizes
+  * Use a color that contrasts with the background image
+      * Recommended to use the text-shadow property to increase contrast
+  * Use a hierarchy that emphasizes the most important words
+      * Font size, font weight, logical grouping, orientation
+  */
+
+#grandCanyon {
+  background-image: url(../images/grand_canyon.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
 }
