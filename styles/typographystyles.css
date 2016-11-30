@@ -80,13 +80,29 @@ section p {
 
 /* Change this style */
 #biggerText {
-
+font-weight: bold;
+font-size: 1.6em;
 }
 
 /* Change this style */
 .indent {
-
-}
+        text-align:left;
+        margin-left: 17%;
+        font-size: 1.1em;
+  }
+  #leftmargin1{
+    margin-left: 8%;
+    font-size: 1.8em;
+  }
+  #leftmargin2{
+              margin-left: 8%;
+              font-size:2.0em;
+              font-weight: bold;
+  }
+  #leftmargin3{
+              margin-left: 17%;
+              font-size: 1.35em;
+  }
 
 /* Place these styles towards the bottom of your typographystyles.css document */
 
@@ -97,6 +113,7 @@ section p {
 
 #weight1 {
   /* Change the font-weight property to give it a thin-weight */
+  font-weight: 100;
 }
 
 #weight2 {
@@ -130,10 +147,22 @@ section p {
   */
 
 #grandCanyon {
-  background-image: url(../images/grand_canyon.jpg);
+  background-image: url("../images/grand_canyon.jpg");
   background-size: cover;
   background-position: center center;
   height: 500px;
   width: 800px;
   margin: 0 auto;
+}
+#top{
+  font-size: 4em;
+  text-align: center;
+}
+#middle{
+  font-size: 1.3em;
+  text-align: center;
+}
+#bottom{
+  font-size: 1.7em;
+  text-align: center;
 }
