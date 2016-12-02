@@ -153,6 +153,7 @@ font-size: 1.6em;
   height: 500px;
   width: 800px;
   margin: 0 auto;
+  color: black;
 }
 #top{
   font-size: 4em;
@@ -165,4 +166,11 @@ font-size: 1.6em;
 #bottom{
   font-size: 1.7em;
   text-align: center;
+}
+#title{
+  font-size: 2.8em;
+}
+#distance{
+ color: yellow;
+ font-size: 2.0em;
 }
