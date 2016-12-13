@@ -169,16 +169,19 @@ font-size: 1.6em;
 }
 #title{
   font-size: 2.8em;
+  text-align: center;
 }
 #distance{
  color: yellow;
- font-size: 2.0em;
+ font-size: 2.5em;
+ text-align: center;
 }
 #area{
   font-size: 2.6em;
-  color:yellow;
+  color: yellow;
+  text-align: center;
 }
 #safe{
   font-size: 1.0em;
-  color: brown;
+  color: yellow;
 }
