@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 #title1{
     text-align: center;
     color: black;
@@ -31,4 +31,7 @@
     text-align: center;
     padding-bottom: 50px;
     text-transform: uppercase;
+    font-size: 2em;
+    color: red;
+    font-family:'Libre Baskerville';
 }
