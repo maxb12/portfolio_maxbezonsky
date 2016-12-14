@@ -37,6 +37,7 @@ h2{
     border-radius: 10px;
     max-width: 500px;
     display: block;
+    clear:both;
 }
 
 .bioDetails{
